@@ -1,5 +1,5 @@
 // Sarah AI - Cancer screening assistant configuration
-export const ASSISTANT_ID = "fa6668a0-71f2-430b-92e4-35465d14a8b8";
+export const ASSISTANT_ID = "f0e0662b-ec1e-4774-bd2c-2ccf2f7dfc95";
 
 export const assistantOverrides = {
   transcriber: {
