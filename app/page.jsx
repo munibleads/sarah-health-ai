@@ -43,7 +43,7 @@ export default function VoiceAIAssistant() {
           <div className="px-8 py-4">
             <div className="flex items-center space-x-3 group">
               <h1 className="text-3xl md:text-4xl font-bold text-gray-800 group-hover:text-teal-700 transition-colors duration-200">
-                AI Assistant
+                Sarah AI
               </h1>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function VoiceAIAssistant() {
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-gradient-to-r from-teal-100/80 to-blue-100/80 backdrop-blur-sm border border-teal-200/50">
               <div className="w-1.5 h-1.5 bg-teal-500 rounded-full mr-2 animate-pulse"></div>
               <p className="text-xs font-medium text-gray-700">
-                Voice AI Workshop Demo
+                AI Cancer Screening Agent
               </p>
             </div>
           </div>
@@ -157,7 +157,7 @@ export default function VoiceAIAssistant() {
         <footer className="border-t border-white/20 bg-white/20 backdrop-blur-lg px-4 md:px-8 py-6 md:py-8">
           <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-gray-700 font-medium">
-              Voice AI Workshop Template © 2025
+              No rights reserved lol © 2025
             </p>
             <div className="flex flex-wrap justify-center md:justify-end space-x-6 md:space-x-8">              
               <a

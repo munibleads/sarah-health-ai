@@ -1,6 +1,6 @@
 // Voice AI Workshop - Assistant Configuration
 // Replace with your own assistant ID from Vapi dashboard
-export const ASSISTANT_ID = "enter your assistant id here";
+export const ASSISTANT_ID = "f0e0662b-ec1e-4774-bd2c-2ccf2f7dfc95";
 
 export const assistantOverrides = {
   transcriber: {
