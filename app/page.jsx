@@ -1,11 +1,11 @@
 "use client"
 
-import { Heart, Mic, MicOff } from "lucide-react";
+import { Mic, MicOff } from "lucide-react";
 import { useVapi } from "../hooks/useVapi";
 import { LoadingSkeleton } from "../components/LoadingSkeleton";
 import { VoiceWaveform } from "../components/VoiceWaveform";
 
-export default function PizzaAssistant() {
+export default function VoiceAIAssistant() {
   const {
     status,
     isConnecting,
@@ -42,9 +42,8 @@ export default function PizzaAssistant() {
         <header className="flex flex-col items-center justify-center pt-12 pb-8 md:pt-16 md:pb-12 space-y-1">
           <div className="px-8 py-4">
             <div className="flex items-center space-x-3 group">
-              <Heart className="w-7 h-7 text-teal-600 group-hover:scale-110 transition-transform duration-200" fill="#0d9488" />
               <h1 className="text-3xl md:text-4xl font-bold text-gray-800 group-hover:text-teal-700 transition-colors duration-200">
-                Sarah AI
+                AI Assistant
               </h1>
             </div>
           </div>
@@ -54,7 +53,7 @@ export default function PizzaAssistant() {
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-gradient-to-r from-teal-100/80 to-blue-100/80 backdrop-blur-sm border border-teal-200/50">
               <div className="w-1.5 h-1.5 bg-teal-500 rounded-full mr-2 animate-pulse"></div>
               <p className="text-xs font-medium text-gray-700">
-                Cancer screening voice agent
+                Voice AI Workshop Demo
               </p>
             </div>
           </div>
@@ -89,7 +88,7 @@ export default function PizzaAssistant() {
               {isConnected && (
                 <div className="bg-emerald-50/80 backdrop-blur-md border border-emerald-200/50 text-emerald-700 px-6 py-6 rounded-2xl text-center space-y-4 shadow-lg">
                   <p className="text-sm font-medium">
-                    {isSpeaking ? "Sarah is speaking..." : "Sarah is listening..."}
+                    {isSpeaking ? "Assistant is speaking..." : "Assistant is listening..."}
                   </p>
                   
                   {/* Real-time Voice Waveform */}
@@ -144,7 +143,7 @@ export default function PizzaAssistant() {
                   </svg>
                   
                   <span className="relative z-10">
-                    {isConnecting ? "Connecting..." : isConnected ? "End Call" : "Call Sarah"}
+                    {isConnecting ? "Connecting..." : isConnected ? "End Call" : "Start Voice Chat"}
                   </span>
                 </button>
               </div>
@@ -158,26 +157,32 @@ export default function PizzaAssistant() {
         <footer className="border-t border-white/20 bg-white/20 backdrop-blur-lg px-4 md:px-8 py-6 md:py-8">
           <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-gray-700 font-medium">
-              © 2025 Sara AI. No rights reserved lol.
+              Voice AI Workshop Template © 2025
             </p>
             <div className="flex flex-wrap justify-center md:justify-end space-x-6 md:space-x-8">              
               <a
-                href="#"
+                href="https://docs.vapi.ai"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-sm text-gray-600 hover:text-gray-800 transition-colors duration-200 hover:underline font-medium"
               >
-                Privacy Policy
+                Vapi Docs
               </a>
               <a
-                href="#"
+                href="https://dashboard.vapi.ai"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-sm text-gray-600 hover:text-gray-800 transition-colors duration-200 hover:underline font-medium"
               >
-                Terms of Use
+                Dashboard
               </a>
               <a
-                href="#"
+                href="https://github.com/VapiAI"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-sm text-gray-600 hover:text-gray-800 transition-colors duration-200 hover:underline font-medium"
               >
-                Accessibility
+                GitHub
               </a>
             </div>
           </div>

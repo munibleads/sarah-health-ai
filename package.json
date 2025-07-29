@@ -1,11 +1,13 @@
 {
-    "name": "vapi-pizza-assistant",
-    "version": "0.1.0",
+    "name": "voice-ai-workshop-template",
+    "version": "1.0.0",
+    "description": "A Next.js template for building voice AI assistants with Vapi",
     "private": true,
     "scripts": {
         "dev": "next dev",
         "build": "next build",
-        "start": "next start"
+        "start": "next start",
+        "lint": "next lint"
     },
     "dependencies": {
         "@radix-ui/react-checkbox": "^1.3.2",
@@ -25,5 +27,11 @@
         "autoprefixer": "^10.4.21",
         "postcss": "^8.5.4",
         "tailwindcss": "^4.1.8"
+    },
+    "keywords": ["voice-ai", "vapi", "nextjs", "workshop", "template"],
+    "author": "Voice AI Workshop",
+    "repository": {
+        "type": "git",
+        "url": "your-repo-url-here"
     }
 }
